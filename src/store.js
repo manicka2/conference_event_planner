@@ -6,7 +6,7 @@ import mealsReducer from './mealsSlice';
 export default configureStore({
   reducer: {
     venue: venueReducer,
-    av:avReducer,
-    meals:mealsReducer
+    av: avReducer,
+    meals: mealsReducer,
   },
 });
